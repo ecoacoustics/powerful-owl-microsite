@@ -1,0 +1,19 @@
+:root {
+    --oe-theme-hue: var(--micro-theme-hue) !important;
+    --oe-theme-saturation: var(--micro-theme-saturation) !important;
+    --oe-theme-lightness: var(--micro-theme-lightness) !important;
+
+    --oe-font-color: var(--micro-font-color) !important;
+    --oe-background-color: var(--micro-background-light) !important;
+    --oe-selected-color: rgba(255, 255, 255, 0.1) !important;
+    --oe-border-color: hsl(var(--oe-theme-hue), calc(var(--oe-theme-saturation) - 30%), calc(var(--oe-theme-lightness) - 5%)) !important;
+
+    --oe-info-bg-color: transparent !important;
+
+    /*
+        TODO: Remove this panel color override once new web components styling
+        is merged
+        https://github.com/ecoacoustics/web-components/pull/376
+    */
+    --oe-panel-color: var(--micro-background-light) !important;
+}

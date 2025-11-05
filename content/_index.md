@@ -5,62 +5,93 @@ date = 2023-01-01T08:00:00-07:00
 
 {{< section/hero
 caption="Image: JJ Harrison, CC BY-SA 3.0, via Wikimedia Commons"
-title="Can you hear a Plains Wanderer?">}}
+title="Whoo's Calling?">}}
 {{< /section/hero >}}
 
 {{< section/call-to-action >}}
-The Plains Wanderer is critically endangered due to habitat loss, predation, and climate change. We're on a mission to train our AI to recognise their calls, and we need your help! By checking the tags our system has put on bird calls, you can help ensure they're correct. This helps us monitor their populations and habitats more effectively, contributing to conservation efforts.
-<a href="/verify">Sign up or log in</a> to start verifying calls.
+The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast. 
+
+Through acoustic monitoring, we’ve recorded thousands of hours of sound across our sites, capturing the rich and often unseen activity of wildlife. These recordings help us detect owl territories we didn’t previously know about, and even in areas where owls are known to occur, they help us fine-tune our understanding of nest tree locations and important roost sites. This guides our volunteers and staff to conduct targeted follow-up surveys and habitat assessments. 
+
+To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance. 
 {{< /section/call-to-action >}}
 
-## About the group
+{{< section class="section-2" >}}
+By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
+
+Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
+
+Your contributions also support the development of computer models that automatically detect owl calls, making future monitoring faster and more efficient. And by testing how well acoustic recorders work across large areas, we’re exploring new ways to monitor threatened species at scale.
+
+Ultimately, the data you help verify informs conservation decisions, supports habitat protection, and strengthens our efforts to ensure Powerful Owls, and the species they live alongside, have a secure future.
+{{< /section >}}
+
+{{< section class="section-3" >}}
+
+<h2 id="what-youll-hear">What you'll hear</h2>
+
+Within these recordings, we can detect:
+
+<ul>
+    <li>Male Powerful Owls — deep, resonant “whoo-hoo” calls.</li>
+    <li>Females — slightly higher-pitched versions of the male call.</li>
+    <li>Chicks — soft, insect-like trills, often described as high-pitched, raspy, and repetitive.</li>
+    <li>Other species — the model also flags a host of interesting birds and marsupials.</li>
+</ul>
+
+By confirming these calls, you’re helping us locate key sites, verify breeding activity, and gather the data we need to protect Powerful Owls and the habitats they depend on.
+
+{{< /section >}}
+
+{{< section class="section-4" >}}
+
+<h2 id="meet-the-team">Meet the Team</h2>
 
 {{< section/cards >}}
 
-{{< card image="images/Plains-wanderer.jpg" alt="Plains Wanderer" >}}
+{{< card >}}
 
-### Card Title 1
+### Mr Andrew Dinwoodie
 
-Some quick example text to build on the card title and make up the bulk of the card's content.
+Andrew is Birdlife Australia’s Powerful Owl Project Coordinator in South East Queensland.
 
-<sl-button href="/" pill>Link to a page</sl-button>
+Andrew is an ecologist with extensive experience in Natural Resource Management and threatened species recovery developed through many years working with the Queensland Parks and Wildlife Service Ecological Assessment Unit and the QPWS Threatened Species unit. His work with the Threatened Species Unit included key roles with the Northern Hairy-nosed Wombat and Bridled Nailtail Wallaby recovery projects.
+
+Throughout his career Andrew has developed extensive expertise in species population management, integrated feral species management, natural resource and landscape management, fire ecology, and restoration ecology.
+
 {{< /card>}}
 
 <--->
 
-{{< card image="images/Plains-wanderer.jpg" alt="Plains Wanderer" >}}
+{{< card >}}
 
-### Card Title 2
+### Dr Holly Parsons
 
-Some quick example text to build on the card title and make up the bulk of the card's content.
+Manager of Priority Sites, BirdLife Australia
 
-<sl-button href="/" pill>Link to a page</sl-button>
+Holly is the Manager of Priority Sites at BirdLife Australia, where she oversees the Powerful Owl Project along with other key conservation initiatives. With a background in urban ecology and a strong focus on community engagement, Holly works closely with volunteers, researchers, and citizen scientists to protect critical habitats and a host of bird species, both threatened and common. Her leadership helps turn interest into actionable conservation outcomes across Australia’s urban and bushland landscapes.
+
 {{< /card >}}
 
 <--->
-{{< card image="images/Plains-wanderer.jpg" alt="Plains Wanderer" >}}
 
-### Card Title 3
+{{< card >}}
 
-Some quick example text to build on the card title and make up the bulk of the card's content.
+### Jenny
 
-<sl-button href="/" pill>Link to a page</sl-button>
+{{< /card >}}
+
+<--->
+
+{{< card >}}
+
+### Christina
+
 {{< /card >}}
 
 {{< /section/cards >}}
 
-{{< section/image-column
-image="images/Plains-wanderer.jpg"
-alt="Plains Wanderer in Grass. Image by Dominic Sherony"
-caption="Image: Dominic Sherony, CC BY-SA 2.0, via Wikimedia Commons"
-imagePosition="left" >}}
-
-## Plains Wanderer Status
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-[Read More](/)
-
-{{< /section/image-column >}}
+{{< /section >}}
 
 <section class="progress-container">
     {{< section/project-progress >}}

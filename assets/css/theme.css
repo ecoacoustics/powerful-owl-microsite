@@ -1,0 +1,50 @@
+:root {
+    /* Fonts */
+    --micro-heading-font: "puffin", sans-serif;
+    --micro-body-font: "tablet-gothic", sans-serif;
+    --micro-font-color: #000;
+    --micro-font-color-light: #B6ADA5;
+    --micro-font-color-toned: #e8e720;
+    --micro-inverse-color: #000;
+    --micro-heading-color: var(--micro-theme-color);
+
+    --micro-nav-background-color: var(--micro-background-light);
+    --micro-nav-font-color: var(--micro-font-color);
+
+    --micro-footer-background-color: #0b2230;
+    --micro-footer-font-color: #fff;
+
+    /* Backgrounds */
+    --micro-background-light: #fff;
+    --micro-background-dark: #0b2230;
+    --micro-panel-color: #f8f8f8;
+
+    /* Font Sizes */
+    --micro-font-size-xsmall: 0.8rem;
+    --micro-font-size-small: 1rem;
+    --micro-font-size-medium: 1.5rem;
+    --micro-font-size-larger: 2.25rem;
+    --micro-font-size-xlarge: 4.5rem;
+
+    /* Paddings */
+    --micro-padding-small: 0.5rem;
+    --micro-padding-medium: 1rem;
+    --micro-padding-large: 2rem;
+    --micro-padding-xlarge: 2.5rem;
+
+    /*
+        The minimum amount of space either side of the main (non-fullbleed)
+        content.
+        This is the amount of padding around the main content on mobile.
+    */
+    --micro-gutter-size: 0.75rem;
+
+    /* Other */
+    --micro-navbar-height: 4rem;
+    --micro-panel-opacity: 0.8;
+    --micro-transition-duration: 0.3s;
+    --micro-transition-timing: ease-in-out;
+    --micro-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --micro-box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --micro-border-radius: 0.25rem;
+}
