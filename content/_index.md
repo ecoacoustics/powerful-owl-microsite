@@ -5,28 +5,37 @@ date = 2023-01-01T08:00:00-07:00
 
 {{< section/hero
 caption="Image: JJ Harrison, CC BY-SA 3.0, via Wikimedia Commons"
-title="Whoo's Calling?">}}
+title="Whoo's Calling?"
+class="hero-section"
+>}}
 {{< /section/hero >}}
 
-{{< section/call-to-action >}}
-The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast. 
+{{< section class="section section-1 oe-call-to-action" >}}
+The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast.
 
-Through acoustic monitoring, we’ve recorded thousands of hours of sound across our sites, capturing the rich and often unseen activity of wildlife. These recordings help us detect owl territories we didn’t previously know about, and even in areas where owls are known to occur, they help us fine-tune our understanding of nest tree locations and important roost sites. This guides our volunteers and staff to conduct targeted follow-up surveys and habitat assessments. 
+Through acoustic monitoring, we’ve recorded thousands of hours of sound across our sites, capturing the rich and often unseen activity of wildlife. These recordings help us detect owl territories we didn’t previously know about, and even in areas where owls are known to occur, they help us fine-tune our understanding of nest tree locations and important roost sites. This guides our volunteers and staff to conduct targeted follow-up surveys and habitat assessments.
 
-To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance. 
-{{< /section/call-to-action >}}
-
-{{< section class="section-2" >}}
-By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
-
-Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
-
-Your contributions also support the development of computer models that automatically detect owl calls, making future monitoring faster and more efficient. And by testing how well acoustic recorders work across large areas, we’re exploring new ways to monitor threatened species at scale.
-
-Ultimately, the data you help verify informs conservation decisions, supports habitat protection, and strengthens our efforts to ensure Powerful Owls, and the species they live alongside, have a secure future.
+To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance.
 {{< /section >}}
 
-{{< section class="section-3" >}}
+{{< section class="section section-2" >}}
+<section class="oe-image-column oe-image-left">
+    <figure class="inline-video">
+        {{< youtube id=0RKpf3rK57I loading=lazy >}}
+    </figure>
+    <div class="oe-image-content">
+        By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
+
+        Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
+
+        Your contributions also support the development of computer models that automatically detect owl calls, making future monitoring faster and more efficient. And by testing how well acoustic recorders work across large areas, we’re exploring new ways to monitor threatened species at scale.
+
+        Ultimately, the data you help verify informs conservation decisions, supports habitat protection, and strengthens our efforts to ensure Powerful Owls, and the species they live alongside, have a secure future.
+    </div>
+</section>
+{{< /section >}}
+
+{{< section class="section section-3" >}}
 
 <h2 id="what-youll-hear">What you'll hear</h2>
 
@@ -43,7 +52,7 @@ By confirming these calls, you’re helping us locate key sites, verify breeding
 
 {{< /section >}}
 
-{{< section class="section-4" >}}
+{{< section class="section section-4" >}}
 
 <h2 id="meet-the-team">Meet the Team</h2>
 
@@ -73,25 +82,11 @@ Holly is the Manager of Priority Sites at BirdLife Australia, where she oversees
 
 {{< /card >}}
 
-<--->
-
-{{< card >}}
-
-### Jenny
-
-{{< /card >}}
-
-<--->
-
-{{< card >}}
-
-### Christina
-
-{{< /card >}}
-
 {{< /section/cards >}}
 
 {{< /section >}}
+
+{{< section class="section section-5" >}}
 
 <section class="progress-container">
     {{< section/project-progress >}}
@@ -112,3 +107,5 @@ Holly is the Manager of Priority Sites at BirdLife Australia, where she oversees
         </ul>
     </div>
 </section>
+
+{{< /section >}}
