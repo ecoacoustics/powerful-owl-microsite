@@ -40,7 +40,8 @@
     --micro-gutter-size: 0.75rem;
 
     /* Other */
-    --micro-navbar-height: 4rem;
+    --micro-navbar-height: 72px;
+    --micro-navbar-padding: var(--micro-padding-medium);
     --micro-panel-opacity: 0.8;
     --micro-transition-duration: 0.3s;
     --micro-transition-timing: ease-in-out;
@@ -59,6 +60,14 @@ sl-carousel, sl-carousel-item {
 
 sl-card {
     color: black;
+}
+
+.oe-header {
+    .oe-navigation {}
+
+    .oe-navbar-logo-image {
+        margin-right: 2rem;
+    }
 }
 
 .hero-section {

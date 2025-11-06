@@ -37,6 +37,10 @@ params:
   apiHost: https://api.ecosounds.org
   workbenchHost: https://ecosounds.org
   heroImage: images/hero-image.jpg
+  navbar:
+    logo:
+      image: "images/birdlife-logo.svg"
+      text: "Whoo's Calling"
   campaigns:
     - name: "Powerful Owl"
       filters:
