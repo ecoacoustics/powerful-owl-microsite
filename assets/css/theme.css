@@ -4,7 +4,7 @@
     --micro-body-font: "tablet-gothic", sans-serif;
     --micro-font-color: #000;
     --micro-font-color-light: #fff;
-    --micro-font-color-toned: #B6ADA5;
+    --micro-font-color-toned: #000;
     --micro-inverse-color: #000;
     --micro-heading-color: var(--micro-theme-color);
 
@@ -55,6 +55,10 @@ sl-carousel, sl-carousel-item {
     inset: 0;
     width: 100%;
     height: 100%;
+}
+
+sl-card {
+    color: black;
 }
 
 .hero-section {
