@@ -62,12 +62,74 @@ sl-card {
     color: black;
 }
 
-.oe-header {
-    .oe-navigation {}
+main {
+    grid-row-start: header !important;
+    grid-row-end: main !important;
+}
 
-    .oe-navbar-logo-image {
-        margin-right: 2rem;
+.oe-header {
+    .oe-navigation {
+        background-color: transparent;
+        backdrop-filter: blur(8px);
     }
+
+    .oe-brand {
+        color: white;
+    }
+
+    .oe-navbar-logo-image, .oe-navbar-logo-text {
+        margin-right: 2rem;
+
+        filter: grayscale(100%) brightness(999999%);
+
+        animation-name: logoColorAnimation;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-timeline: scroll(root);
+
+        animation-range: 1px 50px;
+        animation-fill-mode: forwards;
+    }
+
+    .oe-navbar-logo-text {
+        font-family: var(--micro-heading-font);
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+
+.oe-navigation {
+    animation-name: navShrinkAnimation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timeline: scroll(root);
+
+    animation-range: 1px 200px;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navShrinkAnimation {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: var(--micro-nav-background-color);
+  }
+}
+
+@keyframes logoColorAnimation {
+  from {
+    /* Make the logo completely white */
+    filter: grayscale(100%) brightness(999999%);
+    color: white;
+  }
+
+  to {
+    filter: grayscale(0%) brightness(100%);
+    color: black;
+  }
 }
 
 .hero-section {

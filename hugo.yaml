@@ -20,10 +20,10 @@ markup:
     renderer:
       unsafe: true
 menus:
-  main:
-    - name: About
-      pageRef: https://eavesdroppingonwetlandbirds.com.au/
-      weight: 10
+  # main:
+  #   - name: About
+  #     pageRef: https://eavesdroppingonwetlandbirds.com.au/
+  #     weight: 10
   Footer:
     - name: Project Home
       pageRef: https://eavesdroppingonwetlandbirds.com.au/
@@ -39,7 +39,7 @@ params:
   heroImage: images/hero-image.jpg
   navbar:
     logo:
-      image: "images/birdlife-logo.svg"
+      image: "images/birdlife-logo-rgb.svg"
       text: "Whoo's Calling"
   campaigns:
     - name: "Powerful Owl"
