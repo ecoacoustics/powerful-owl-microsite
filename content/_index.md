@@ -19,11 +19,11 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 {{< /section >}}
 
 {{< section class="section section-2" >}}
-<section class="oe-image-column oe-image-left">
+<section class="two-column-section oe-image-column oe-image-left">
     <figure class="inline-video">
         {{< youtube id=0RKpf3rK57I loading=lazy >}}
     </figure>
-    <div class="oe-image-content">
+    <div class="oe-image-content text-block">
         By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
 
         Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
@@ -35,20 +35,28 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 </section>
 {{< /section >}}
 
-{{< section class="section section-3" >}}
+{{< section class="section section-3 text-block" >}}
 
-<h2 id="what-youll-hear">What you'll hear</h2>
+<section class="two-column-section oe-image-column">
+    <div>
+        <h2 id="what-youll-hear">What you'll hear</h2>
 
-Within these recordings, we can detect:
+        Within these recordings, we can detect:
 
-<ul>
-    <li>Male Powerful Owls — deep, resonant “whoo-hoo” calls.</li>
-    <li>Females — slightly higher-pitched versions of the male call.</li>
-    <li>Chicks — soft, insect-like trills, often described as high-pitched, raspy, and repetitive.</li>
-    <li>Other species — the model also flags a host of interesting birds and marsupials.</li>
-</ul>
+        <ul>
+            <li>Male Powerful Owls — deep, resonant “whoo-hoo” calls.</li>
+            <li>Females — slightly higher-pitched versions of the male call.</li>
+            <li>Chicks — soft, insect-like trills, often described as high-pitched, raspy, and repetitive.</li>
+            <li>Other species — the model also flags a host of interesting birds and marsupials.</li>
+        </ul>
 
-By confirming these calls, you’re helping us locate key sites, verify breeding activity, and gather the data we need to protect Powerful Owls and the habitats they depend on.
+        By confirming these calls, you’re helping us locate key sites, verify breeding activity, and gather the data we need to protect Powerful Owls and the habitats they depend on.
+    </div>
+
+    <div>
+        {{< event-card audioRecordingId="2569781" audioEventId="594825" label="Powerful Owl" />}}
+    </div>
+</section>
 
 {{< /section >}}
 
@@ -88,9 +96,8 @@ Holly is the Manager of Priority Sites at BirdLife Australia, where she oversees
 
 {{< section class="section section-5" >}}
 
-<section class="progress-container">
-    {{< section/project-progress >}}
-    {{< /section/project-progress >}}
+<section class="progress-container text-block">
+    {{< section/project-progress />}}
     <div>
         <h2>Why it matters</h2>
         <p>
