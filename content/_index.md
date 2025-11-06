@@ -10,7 +10,7 @@ class="hero-section"
 >}}
 {{< /section/hero >}}
 
-{{< section class="section section-1 oe-call-to-action" >}}
+{{< section class="section oe-call-to-action" >}}
 The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast.
 
 Through acoustic monitoring, we’ve recorded thousands of hours of sound across our sites, capturing the rich and often unseen activity of wildlife. These recordings help us detect owl territories we didn’t previously know about, and even in areas where owls are known to occur, they help us fine-tune our understanding of nest tree locations and important roost sites. This guides our volunteers and staff to conduct targeted follow-up surveys and habitat assessments.
@@ -18,7 +18,7 @@ Through acoustic monitoring, we’ve recorded thousands of hours of sound across
 To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance.
 {{< /section >}}
 
-{{< section class="section section-2" >}}
+{{< section class="section" >}}
 <section class="two-column-section oe-image-column oe-image-left">
     <figure class="inline-video">
         {{< youtube id=0RKpf3rK57I loading=lazy >}}
@@ -35,7 +35,7 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 </section>
 {{< /section >}}
 
-{{< section class="section section-3 text-block" >}}
+{{< section class="section text-block" >}}
 
 <section class="two-column-section oe-image-column">
     <div>
@@ -156,7 +156,7 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 
 {{< /section >}}
 
-{{< section class="section section-4" >}}
+{{< section class="section" >}}
 
 <h2 id="meet-the-team">Meet the Team</h2>
 
@@ -190,7 +190,7 @@ Holly is the Manager of Priority Sites at BirdLife Australia, where she oversees
 
 {{< /section >}}
 
-{{< section class="section section-5" >}}
+{{< section class="section" >}}
 
 <section class="progress-container text-block">
     {{< section/project-progress />}}
