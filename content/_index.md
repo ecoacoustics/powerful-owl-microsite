@@ -54,7 +54,103 @@ To manage this vast archive of sound, we use computer analysis to automatically 
     </div>
 
     <div>
-        {{< event-card audioRecordingId="2569781" audioEventId="594825" label="Powerful Owl" />}}
+        <sl-carousel pagination mouse-dragging loop>
+            <sl-carousel-item>
+                <div class="card-host">
+                    <sl-card class="spectrogram-card">
+                        <div class="card-header" slot="header">
+                            <h3 class="event-label">Powerful Owl (Male)</h3>
+                            <oe-media-controls for="example-1"></oe-media-controls>
+                        </div>
+
+                        <div class="card-body">
+                            <oe-annotate>
+                                <oe-axes>
+                                    <oe-indicator>
+                                        <oe-spectrogram
+                                            id="example-1"
+                                            src="Ninox-strenua-male.mp3"
+                                        ></oe-spectrogram>
+                                    </oe-indicator>
+                                </oe-axes>
+                            </oe-annotate>
+                        </div>
+                    </sl-card>
+                </div>
+            </sl-carousel-item>
+
+            <sl-carousel-item>
+                <div class="card-host">
+                    <sl-card class="spectrogram-card">
+                        <div class="card-header" slot="header">
+                            <h3 class="event-label">Powerful Owl (Female)</h3>
+                            <oe-media-controls for="example-2"></oe-media-controls>
+                        </div>
+
+                        <div class="card-body">
+                            <oe-annotate>
+                                <oe-axes>
+                                    <oe-indicator>
+                                        <oe-spectrogram
+                                            id="example-2"
+                                            src="Ninox-strenua-female.mp3"
+                                        ></oe-spectrogram>
+                                    </oe-indicator>
+                                </oe-axes>
+                            </oe-annotate>
+                        </div>
+                    </sl-card>
+                </div>
+            </sl-carousel-item>
+
+            <sl-carousel-item>
+                <div class="card-host">
+                    <sl-card class="spectrogram-card">
+                        <div class="card-header" slot="header">
+                            <h3 class="event-label">Powerful Owl (Chick)</h3>
+                            <oe-media-controls for="example-3"></oe-media-controls>
+                        </div>
+
+                        <div class="card-body">
+                            <oe-annotate>
+                                <oe-axes>
+                                    <oe-indicator>
+                                        <oe-spectrogram
+                                            id="example-3"
+                                            src="Powerful-Owl_Ninox-strenua_chick-begging_Ed-McNabb.mp3"
+                                        ></oe-spectrogram>
+                                    </oe-indicator>
+                                </oe-axes>
+                            </oe-annotate>
+                        </div>
+                    </sl-card>
+                </div>
+            </sl-carousel-item>
+
+            <sl-carousel-item>
+                <div class="card-host">
+                    <sl-card class="spectrogram-card">
+                        <div class="card-header" slot="header">
+                            <h3 class="event-label">Boobook Call</h3>
+                            <oe-media-controls for="example-4"></oe-media-controls>
+                        </div>
+
+                        <div class="card-body">
+                            <oe-annotate>
+                                <oe-axes>
+                                    <oe-indicator>
+                                        <oe-spectrogram
+                                            id="example-4"
+                                            src="Boobook call Fred van Gessel.m4a"
+                                        ></oe-spectrogram>
+                                    </oe-indicator>
+                                </oe-axes>
+                            </oe-annotate>
+                        </div>
+                    </sl-card>
+                </div>
+            </sl-carousel-item>
+        </sl-carousel>
     </div>
 </section>
 
