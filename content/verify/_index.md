@@ -13,16 +13,70 @@ title = "Whoo's Calling | Verify"
     ></oe-data-source>
 </oe-verification-grid>
 
-<!-- <div class="examples-container">
-    <h3>Example Calls</h3>
+<div class="examples-container">
+    <h2>Example Calls</h2>
     <div class="example-calls">
-        {{< event-card audioRecordingId="352803" audioEventId="269965" label="Plains Wanderer (female)" >}}
-        {{< /event-card >}}
-        {{< event-card audioRecordingId="352803" audioEventId="269937" label="Plains Wanderer (male)" >}}
-        {{< /event-card >}}
-    </div>
+        <div class="card-host">
+            <sl-card class="spectrogram-card">
+                <div class="card-header" slot="header">
+                    <h3 class="event-label">Powerful Owl (Male)</h3>
+                    <oe-media-controls for="example-1"></oe-media-controls>
+                </div>
+                <div class="card-body">
+                    <oe-annotate>
+                        <oe-axes>
+                            <oe-indicator>
+                                <oe-spectrogram
+                                    id="example-1"
+                                    src="/Ninox-strenua-male.mp3"
+                                ></oe-spectrogram>
+                            </oe-indicator>
+                        </oe-axes>
+                    </oe-annotate>
+                </div>
+            </sl-card>
+        </div>
+        <div class="card-host">
+            <sl-card class="spectrogram-card">
+                <div class="card-header" slot="header">
+                    <h3 class="event-label">Powerful Owl (Female)</h3>
+                    <oe-media-controls for="example-2"></oe-media-controls>
+                </div>
+                <div class="card-body">
+                    <oe-annotate>
+                        <oe-axes>
+                            <oe-indicator>
+                                <oe-spectrogram
+                                    id="example-2"
+                                    src="/Ninox-strenua-female.mp3"
+                                ></oe-spectrogram>
+                            </oe-indicator>
+                        </oe-axes>
+                    </oe-annotate>
+                </div>
+            </sl-card>
+        </div>
+        <div class="card-host">
+            <sl-card class="spectrogram-card">
+                <div class="card-header" slot="header">
+                    <h3 class="event-label">Powerful Owl (Chick)</h3>
+                    <oe-media-controls for="example-3"></oe-media-controls>
+                </div>
+                <div class="card-body">
+                    <oe-annotate>
+                        <oe-axes>
+                            <oe-indicator>
+                                <oe-spectrogram
+                                    id="example-3"
+                                    src="/Powerful-Owl_Ninox-strenua_chick-begging_Ed-McNabb.mp3"
+                                ></oe-spectrogram>
+                            </oe-indicator>
+                        </oe-axes>
+                    </oe-annotate>
+                </div>
+            </sl-card>
+        </div>
 </div>
- -->
 
 <style>
 .examples-container {
@@ -32,11 +86,24 @@ title = "Whoo's Calling | Verify"
 .example-calls {
     display: flex;
     gap: var(--micro-padding-medium);
+    justify-content: space-around;
     flex-wrap: wrap;
+}
 
-    > * {
-        flex: 1 1;
-        min-width: 20rem;
+.card-host {
+    sl-card {
+        display: block;
+        height: 100%;
     }
+
+    .card-body {
+        min-width: 370px;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-right: 1em;
 }
 </style>
