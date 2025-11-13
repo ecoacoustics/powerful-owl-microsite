@@ -169,6 +169,12 @@ oe-verification-grid {
   }
 }
 
+body:has(#login-page) {
+    .card-header {
+        align-items: start !important;
+    }
+}
+
 .oe-header {
     z-index: 1000;
 }

@@ -26,13 +26,17 @@ To manage this vast archive of sound, we use computer analysis to automatically 
         </figure>
     </div>
     <div class="oe-image-content text-block">
-        By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
+        <div>
+            <h2>Uncovering Hidden Soundscapes</h2>
 
-        Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
+            By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
 
-        Your contributions also support the development of computer models that automatically detect owl calls, making future monitoring faster and more efficient. And by testing how well acoustic recorders work across large areas, we’re exploring new ways to monitor threatened species at scale.
+            Each confirmed call helps us locate owl territories we didn’t previously know about. These acoustic clues guide our volunteers and staff to investigate potential nest trees and monitor breeding success. Even in areas where we already know owls are present, acoustic recordings help us fine-tune our understanding by revealing the likely location of nest trees or important roost sites that might otherwise go unnoticed.
 
-        Ultimately, the data you help verify informs conservation decisions, supports habitat protection, and strengthens our efforts to ensure Powerful Owls, and the species they live alongside, have a secure future.
+            Your contributions also support the development of computer models that automatically detect owl calls, making future monitoring faster and more efficient. And by testing how well acoustic recorders work across large areas, we’re exploring new ways to monitor threatened species at scale.
+
+            Ultimately, the data you help verify informs conservation decisions, supports habitat protection, and strengthens our efforts to ensure Powerful Owls, and the species they live alongside, have a secure future.
+        </div>
     </div>
 </section>
 {{< /section >}}
