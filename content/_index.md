@@ -76,6 +76,7 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-1"
                                             src="Ninox-strenua-male.mp3"
+                                            mel-scale
                                         ></oe-spectrogram>
                                     </oe-indicator>
                                 </oe-axes>
@@ -100,6 +101,7 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-2"
                                             src="Ninox-strenua-female.mp3"
+                                            mel-scale
                                         ></oe-spectrogram>
                                     </oe-indicator>
                                 </oe-axes>

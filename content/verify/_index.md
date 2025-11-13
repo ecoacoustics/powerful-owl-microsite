@@ -29,6 +29,7 @@ title = "Whoo's Calling | Verify"
                                 <oe-spectrogram
                                     id="example-1"
                                     src="/Ninox-strenua-male.mp3"
+                                    mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
@@ -49,6 +50,7 @@ title = "Whoo's Calling | Verify"
                                 <oe-spectrogram
                                     id="example-2"
                                     src="/Ninox-strenua-female.mp3"
+                                    mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
@@ -69,6 +71,7 @@ title = "Whoo's Calling | Verify"
                                 <oe-spectrogram
                                     id="example-3"
                                     src="/Powerful-Owl_Ninox-strenua_chick-begging_Ed-McNabb.mp3"
+                                    mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
