@@ -25,14 +25,12 @@ menus:
   #     pageRef: https://eavesdroppingonwetlandbirds.com.au/
   #     weight: 10
   Footer:
-    - name: Project Home
-      pageRef: https://eavesdroppingonwetlandbirds.com.au/
     - name: Ecosounds Project
-      pageRef: https://www.ecosounds.org/projects/1131
-    - name: Support / Donate
-      pageRef: https://www.csu.edu.au/office/advancement/giving-to-csu/active-funds/eavesdropping-on-wetland-birds
-    - name: Blog
-      pageRef: https://eavesdroppingonwetlandbirds.com.au/category/blog/
+      pageRef: https://www.ecosounds.org/projects/1147
+    - name: Project Home
+      pageRef: https://birdlife.org.au/projects/powerful-owl-project
+    - name: Donate Today
+      pageRef: https://birdlife.org.au/donate
 params:
   apiHost: https://api.ecosounds.org
   workbenchHost: https://ecosounds.org
