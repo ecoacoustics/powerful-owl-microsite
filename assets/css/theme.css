@@ -132,6 +132,10 @@ main {
   }
 }
 
+.oe-header {
+    z-index: 1000;
+}
+
 .hero-section {
     .oe-hero-title {
         text-shadow: 4px 2px 2px black;
