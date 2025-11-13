@@ -64,6 +64,11 @@
     --sl-color-primary-950: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - -0.21000000000000002)) !important;
 }
 
+:root, oe-annotate, * {
+    --oe-annotation-weight: 2px !important;
+    --oe-annotation-color: #0c0 !important;
+}
+
 sl-carousel, sl-carousel-item {
     display: block;
 

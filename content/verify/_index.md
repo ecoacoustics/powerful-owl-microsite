@@ -35,6 +35,18 @@ title = "Whoo's Calling | Verify"
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
+                        <oe-annotation
+                            start-time="0"
+                            end-time="3"
+                            low-frequency="200"
+                            high-frequency="1000"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="8.4"
+                            end-time="10.1"
+                            low-frequency="200"
+                            high-frequency="1100"
+                        ></oe-annotation>
                     </oe-annotate>
                 </div>
             </sl-card>
@@ -58,6 +70,18 @@ title = "Whoo's Calling | Verify"
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
+                        <oe-annotation
+                            start-time="0.5"
+                            end-time="2.1"
+                            low-frequency="200"
+                            high-frequency="4300"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="9.3"
+                            end-time="10.9"
+                            low-frequency="250"
+                            high-frequency="4300"
+                        ></oe-annotation>
                     </oe-annotate>
                 </div>
             </sl-card>
