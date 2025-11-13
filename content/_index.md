@@ -76,6 +76,8 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-1"
                                             src="Ninox-strenua-male.mp3"
+                                            window-size="2048"
+                                            window-overlap="512"
                                             mel-scale
                                         ></oe-spectrogram>
                                     </oe-indicator>
@@ -101,6 +103,8 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-2"
                                             src="Ninox-strenua-female.mp3"
+                                            window-size="2048"
+                                            window-overlap="1024"
                                             mel-scale
                                         ></oe-spectrogram>
                                     </oe-indicator>
@@ -126,6 +130,9 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-3"
                                             src="Powerful-Owl_Ninox-strenua_chick-begging_Ed-McNabb.mp3"
+                                            window-size="1024"
+                                            window-overlap="128"
+                                            window-function="tukey"
                                         ></oe-spectrogram>
                                     </oe-indicator>
                                 </oe-axes>
@@ -150,6 +157,12 @@ To manage this vast archive of sound, we use computer analysis to automatically 
                                         <oe-spectrogram
                                             id="example-4"
                                             src="Boobook call Fred van Gessel.m4a"
+                                            window-size="4096"
+                                            window-overlap="2048"
+                                            window-function="flat-top"
+                                            contrast="1.2"
+                                            brightness="-0.1"
+                                            mel-scale
                                         ></oe-spectrogram>
                                     </oe-indicator>
                                 </oe-axes>
