@@ -86,51 +86,64 @@ sl-button[variant="default"] {
     --sl-color-primary-700: black;
 }
 
-main {
-    grid-row-start: header !important;
-    grid-row-end: main !important;
+oe-verification-grid {
+    margin-top: 2rem !important;
 }
 
-.oe-header {
-    .oe-navigation {
-        background-color: transparent;
-        backdrop-filter: blur(8px);
-    }
-
-    .oe-brand {
-        color: white;
-    }
-
-    .oe-navbar-logo-image, .oe-navbar-logo-text {
-        margin-right: 2rem;
-
-        filter: grayscale(100%) brightness(999999%);
-
-        animation-name: logoColorAnimation;
-        animation-duration: 2s;
-        animation-direction: alternate;
-        animation-timeline: scroll(root);
-
-        animation-range: 1px 50px;
-        animation-fill-mode: forwards;
-    }
-
-    .oe-navbar-logo-text {
-        font-family: var(--micro-heading-font);
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
+.oe-navbar-logo-image, .oe-navbar-logo-text {
+    margin-right: 2rem;
 }
 
+/*
+    Some browsers do not support scroll-linked animations yet.
+    If we do not support scroll-linked animations, the navigation bar will
+    simply have a static background color and logo.
+*/
+@supports (animation-timeline: scroll()) {
+    body:has(#home-page) {
+        .oe-navigation {
+            animation-name: navShrinkAnimation;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-timeline: scroll(root);
+            animation-range: 1px 200px;
+            animation-fill-mode: forwards;
+        }
 
-.oe-navigation {
-    animation-name: navShrinkAnimation;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-timeline: scroll(root);
+        main {
+            grid-row-start: header !important;
+            grid-row-end: main !important;
+        }
 
-    animation-range: 1px 200px;
-    animation-fill-mode: forwards;
+        .oe-header {
+            .oe-navigation {
+                background-color: transparent;
+                backdrop-filter: blur(8px);
+            }
+
+            .oe-brand {
+                color: white;
+            }
+
+            .oe-navbar-logo-image, .oe-navbar-logo-text {
+                filter: grayscale(100%) brightness(999999%);
+
+                animation-name: logoColorAnimation;
+                animation-duration: 2s;
+                animation-direction: alternate;
+                animation-timeline: scroll(root);
+
+                animation-range: 1px 50px;
+                animation-fill-mode: forwards;
+            }
+
+            .oe-navbar-logo-text {
+                font-family: var(--micro-heading-font);
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+        }
+    }
 }
 
 @keyframes navShrinkAnimation {

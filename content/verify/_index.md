@@ -1,5 +1,5 @@
 +++
-title = "Can you hear a Plains Wanderer?"
+title = "Whoo's Calling | Verify"
 +++
 
 <oe-verification-grid data-campaign="Powerful Owl" id="verification-grid" grid-size="1">
@@ -13,7 +13,7 @@ title = "Can you hear a Plains Wanderer?"
     ></oe-data-source>
 </oe-verification-grid>
 
-<div class="examples-container">
+<!-- <div class="examples-container">
     <h3>Example Calls</h3>
     <div class="example-calls">
         {{< event-card audioRecordingId="352803" audioEventId="269965" label="Plains Wanderer (female)" >}}
@@ -22,6 +22,7 @@ title = "Can you hear a Plains Wanderer?"
         {{< /event-card >}}
     </div>
 </div>
+ -->
 
 <style>
 .examples-container {
