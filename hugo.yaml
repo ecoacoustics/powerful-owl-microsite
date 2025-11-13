@@ -55,18 +55,18 @@ params:
     # To create your own hsl theme color, you can use the following website.
     # https://hslpicker.com/#e9e61f
     themeColor:
-      hue: 43.15deg
+      hue: 41.9deg
       saturation: 100%
-      lightness: 53.92%
+      lightness: 47.45%
     themeShades:
-      "50": 252 249 245
-      "100": 247 234 222
-      "200": 240 219 196
-      "300": 233 201 168
-      "400": 224 177 130
-      "500": 211 146 80
-      "600": 186 115 44
-      "700": 153 95 36
-      "800": 126 78 30
-      "900": 90 56 21
-      "950": 55 34 13
+      "50": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.72)
+      "100": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.61)
+      "200": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.5)
+      "300": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.39)
+      "400": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.26)
+      "500": from hsl(41.9, 100%, 47.45%) h s calc(l - 0.11999999999999997)
+      "600": from hsl(41.9, 100%, 47.45%) h s calc(l - 0)
+      "700": from hsl(41.9, 100%, 47.45%) h s calc(l - -0.08000000000000002)
+      "800": from hsl(41.9, 100%, 47.45%) h s calc(l - -0.13)
+      "900": from hsl(41.9, 100%, 47.45%) h s calc(l - -0.18)
+      "950": from hsl(41.9, 100%, 47.45%) h s calc(l - -0.21000000000000002)

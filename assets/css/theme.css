@@ -50,6 +50,20 @@
     --micro-border-radius: 0.4rem;
 }
 
+:root {
+    --sl-color-primary-50: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.72)) !important;
+    --sl-color-primary-100: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.61)) !important;
+    --sl-color-primary-200: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.5)) !important;
+    --sl-color-primary-300: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.39)) !important;
+    --sl-color-primary-400: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.26)) !important;
+    --sl-color-primary-500: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0.11999999999999997)) !important;
+    --sl-color-primary-600: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - 0)) !important;
+    --sl-color-primary-700: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - -0.08000000000000002)) !important;
+    --sl-color-primary-800: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - -0.13)) !important;
+    --sl-color-primary-900: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - -0.18)) !important;
+    --sl-color-primary-950: hsl(from hsl(41.9, 100%, 47.45%) h s calc(l - -0.21000000000000002)) !important;
+}
+
 sl-carousel, sl-carousel-item {
     display: block;
 
@@ -60,6 +74,16 @@ sl-carousel, sl-carousel-item {
 
 sl-card {
     color: black;
+}
+
+sl-button[variant="primary"] {
+    --sl-color-neutral-0: #041C2C !important;
+    --sl-color-neutral-1000: white !important;
+}
+
+sl-button[variant="default"] {
+    /* Hover text color */
+    --sl-color-primary-700: black;
 }
 
 main {
