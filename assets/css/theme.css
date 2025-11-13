@@ -304,19 +304,28 @@ section.page-section {
     .inline-video {
         display: flex;
         flex-direction: column;
+        justify-content: center;
 
         position: absolute;
         min-width: 100%;
         min-height: 100%;
 
-        contain: content;
-
         & > * {
             flex: 1 1;
+            max-height: 600px;
+            border-radius: var(--micro-border-radius);
+            contain: content;
         }
     }
 }
 
 .oe-image-column {
     gap: var(--micro-padding-large) !important;
+}
+
+oe-verification-grid:not([grid-size="1"]) {
+    margin-inline: 8rem !important;
+    grid-column: fullbleed !important;
+
+    max-height: 95dvh;
 }

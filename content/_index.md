@@ -22,7 +22,8 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 <section class="two-column-section oe-image-column oe-image-left">
     <div class="column-left">
         <figure class="inline-video">
-            {{< youtube id="BCqg6aJxRts" loading="lazy" >}}
+            <!-- {{< youtube id="BCqg6aJxRts" loading="lazy" >}} -->
+            <img src="video-fallback.png" alt="" />
         </figure>
     </div>
     <div class="oe-image-content text-block">
