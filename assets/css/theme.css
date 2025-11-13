@@ -47,7 +47,7 @@
     --micro-transition-timing: ease-in-out;
     --micro-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     --micro-box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.2);
-    --micro-border-radius: 0.25rem;
+    --micro-border-radius: 0.4rem;
 }
 
 sl-carousel, sl-carousel-item {
@@ -133,6 +133,11 @@ main {
 }
 
 .hero-section {
+    .oe-hero-title {
+        text-shadow: 4px 2px 2px black;
+        padding-bottom: 2rem;
+    }
+
     /*
         Add a subtle overlay gradient that goes from transparent to var(--micro-background-dark)
         to improve text visibility over the hero image.
@@ -161,7 +166,6 @@ main {
 
 section.page-section {
     padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .two-column-section {
@@ -223,4 +227,44 @@ section.page-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.people-section {
+    display: flex !important;
+    justify-content: space-evenly;
+
+    .person-card {
+        max-width: 400px;
+    }
+}
+
+.oe-call-to-action {
+    padding-block: var(--micro-padding-xlarge) !important;
+    text-align: justify;
+}
+
+.column-left {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+
+    .inline-video {
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+
+        contain: content;
+
+        & > * {
+            flex: 1 1;
+        }
+    }
+}
+
+.oe-image-column {
+    gap: var(--micro-padding-large) !important;
 }

@@ -20,9 +20,11 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 
 {{< section class="section" >}}
 <section class="two-column-section oe-image-column oe-image-left">
-    <figure class="inline-video">
-        {{< youtube id=0RKpf3rK57I loading=lazy >}}
-    </figure>
+    <div class="column-left">
+        <figure class="inline-video">
+            {{< youtube id="BCqg6aJxRts" loading="lazy" >}}
+        </figure>
+    </div>
     <div class="oe-image-content text-block">
         By confirming Powerful Owl calls, and identifying other birds and marsupials, you’re helping us uncover the hidden soundscape of Australia’s urban and bushland environments. This project is about more than just listening; it’s about discovering where wildlife lives, breeds, and thrives.
 
@@ -160,9 +162,9 @@ To manage this vast archive of sound, we use computer analysis to automatically 
 
 <h2 id="meet-the-team">Meet the Team</h2>
 
-{{< section/cards >}}
+{{< section/cards class="people-section" >}}
 
-{{< card >}}
+{{< card class="person-card" image="images/people/placeholder.png" alt="" >}}
 
 ### Mr Andrew Dinwoodie
 
@@ -176,7 +178,7 @@ Throughout his career Andrew has developed extensive expertise in species popula
 
 <--->
 
-{{< card >}}
+{{< card class="person-card" image="images/people/placeholder.png" alt="" >}}
 
 ### Dr Holly Parsons
 
