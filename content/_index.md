@@ -4,7 +4,7 @@ date = 2023-01-01T08:00:00-07:00
 +++
 
 {{< section/hero
-caption="Image: JJ Harrison, CC BY-SA 3.0, via Wikimedia Commons"
+caption="Image: Copyright Dr Nick Hamilton, All rights reserved"
 title="Whoo's Calling?"
 class="hero-section"
 >}}
