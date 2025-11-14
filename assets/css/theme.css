@@ -121,6 +121,13 @@ oe-verification-grid {
     margin-right: 2rem;
 }
 
+.event-label {
+    margin: 0;
+
+    font-size: var(--micro-font-size-medium);
+    letter-spacing: 0.25px;
+}
+
 /*
     Some browsers do not support scroll-linked animations yet.
     If we do not support scroll-linked animations, the navigation bar will
@@ -245,7 +252,7 @@ body:has(#home-page) {
 
     .two-column-section {
         display: grid !important;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
         gap: 1rem;
 
         width: 100%;
@@ -260,13 +267,24 @@ body:has(#home-page) {
                 height: 100%;
             }
 
-            .card-host, .spectrogram-card, oe-spectrogram, oe-axes, oe-indicator, oe-annotate {
+            .card-host,
+            .spectrogram-card,
+            oe-spectrogram,
+            oe-axes,
+            oe-indicator,
+            oe-annotate {
                 display: flex;
                 flex-direction: column;
                 flex: 1 1;
                 min-height: 0;
 
                 height: 100%;
+
+                min-height: 250px;
+            }
+
+            sl-carousel {
+                min-height: 400px;
             }
         }
     }
@@ -329,7 +347,7 @@ body:has(#home-page) {
             flex-direction: column;
             justify-content: center;
 
-            position: absolute;
+            position: relative;
             min-width: 100%;
             min-height: 100%;
 
