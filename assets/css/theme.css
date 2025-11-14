@@ -105,6 +105,12 @@ oe-verification-grid {
     }
 }
 
+@media (max-width: 64em /* 1024px */) {
+    .oe-hero-title {
+        margin-bottom: 2rem !important
+    }
+}
+
 .oe-navbar-logo-image, .oe-navbar-logo-text {
     margin-right: 2rem;
 }
