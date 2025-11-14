@@ -95,6 +95,16 @@ oe-verification-grid {
     margin-top: 2rem !important;
 }
 
+.hero-content-container {
+    min-height: 600px;
+}
+
+@media (max-width: 48em /* 768px */) {
+    .hero-section {
+        background-position: center !important;
+    }
+}
+
 .oe-navbar-logo-image, .oe-navbar-logo-text {
     margin-right: 2rem;
 }
