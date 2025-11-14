@@ -99,6 +99,12 @@ oe-verification-grid {
     min-height: 600px;
 }
 
+@media (max-width: 31.25em /* 420px */) {
+    .oe-navbar-logo-text {
+        display: none;
+    }
+}
+
 @media (max-width: 48em /* 768px */) {
     .hero-section {
         background-position: center !important;
