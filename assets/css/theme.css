@@ -325,6 +325,7 @@ body:has(#home-page) {
     .people-section {
         display: flex !important;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 
         .person-card {
             max-width: 400px;
