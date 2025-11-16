@@ -11,11 +11,28 @@ class="hero-section"
 {{< /section/hero >}}
 
 {{< section class="section oe-call-to-action" >}}
-The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast.
+<!-- The Powerful Owl Project is a collaborative conservation effort led by BirdLife Australia in SE Queensland and Greater Sydney, supported by hundreds of passionate volunteers. It’s designed to reveal the hidden world of this top-order nocturnal predator and the broader soundscape of the urban and bushland environments it inhabits along Australia’s east coast.
 
 Through acoustic monitoring, we’ve recorded thousands of hours of sound across our sites, capturing the rich and often unseen activity of wildlife. These recordings help us detect owl territories we didn’t previously know about, and even in areas where owls are known to occur, they help us fine-tune our understanding of nest tree locations and important roost sites. This guides our volunteers and staff to conduct targeted follow-up surveys and habitat assessments.
 
-To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance.
+To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance. -->
+
+<p>
+The Powerful Owl Project, run by BirdLife Australia, works with citizen scientists across South-East Queensland and Greater Sydney to map, monitor and protect Australia’s largest owl in urban and peri-urban areas.
+</p>
+
+<p>
+We use acoustic recorders to capture owl calls at night, helping us identify new territories and pinpoint nest trees and important roost sites for follow-up checks.
+</p>
+
+<p>
+Computer analysis automatically detects owl calls and produces long-duration false-colour spectrograms, making it easy for us, and for you, to spot owl activity and other species at a glance.
+</p>
+
+<p>
+By contributing recordings and observations, volunteers help us build a clearer picture of where Powerful Owls live, the habitat they rely on, and how we can better reduce threats.
+</p>
+
 {{< /section >}}
 
 {{< section class="section" >}}
