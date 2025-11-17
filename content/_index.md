@@ -17,21 +17,13 @@ Through acoustic monitoring, we’ve recorded thousands of hours of sound across
 
 To manage this vast archive of sound, we use computer analysis to automatically detect owl calls and visualise sound data through long-duration false-colour spectrograms. These images allow us — and you — to spot owl calls and other species at a glance. -->
 
-<p>
 The Powerful Owl Project, run by BirdLife Australia, works with citizen scientists across South-East Queensland and Greater Sydney to map, monitor and protect Australia’s largest owl in urban and peri-urban areas.
-</p>
 
-<p>
 We use acoustic recorders to capture owl calls at night, helping us identify new territories and pinpoint nest trees and important roost sites for follow-up checks.
-</p>
 
-<p>
 Computer analysis automatically detects owl calls and produces long-duration false-colour spectrograms, making it easy for us, and for you, to spot owl activity and other species at a glance.
-</p>
 
-<p>
 By contributing recordings and observations, volunteers help us build a clearer picture of where Powerful Owls live, the habitat they rely on, and how we can better reduce threats.
-</p>
 
 {{< /section >}}
 
