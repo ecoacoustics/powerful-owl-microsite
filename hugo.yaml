@@ -34,7 +34,7 @@ menus:
 params:
   apiHost: https://api.ecosounds.org
   workbenchHost: https://ecosounds.org
-  heroImage: images/hero-image.jpg
+  heroImage: images/hero-image.avif
   navbar:
     logo:
       image: "images/birdlife-logo-rgb.svg"
