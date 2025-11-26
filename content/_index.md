@@ -219,7 +219,7 @@ By contributing recordings and observations, volunteers help us build a clearer 
 
 {{< section/cards class="people-section" >}}
 
-{{< card class="person-card" image="images/people/placeholder.png" alt="" >}}
+{{< card class="person-card" image="images/people/andrew.webp" alt="Andrew Dinwoodie presenting a talk about Powerful Owls outside" >}}
 
 ### Mr Andrew Dinwoodie
 
@@ -233,7 +233,7 @@ Throughout his career Andrew has developed extensive expertise in species popula
 
 <--->
 
-{{< card class="person-card" image="images/people/placeholder.png" alt="" >}}
+{{< card class="person-card" image="images/people/holly.jpeg" alt="Dr Holly Parsons looking at a plant while smiling" >}}
 
 ### Dr Holly Parsons
 

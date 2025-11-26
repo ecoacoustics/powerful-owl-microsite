@@ -79,6 +79,11 @@ sl-carousel, sl-carousel-item {
 
 sl-card {
     color: black;
+
+    img {
+        min-height: 400px;
+        object-fit: cover;
+    }
 }
 
 sl-button[variant="primary"] {
@@ -108,6 +113,13 @@ oe-verification-grid {
 @media (max-width: 48em /* 768px */) {
     .hero-section {
         background-position: center !important;
+    }
+
+
+    sl-card {
+        img {
+            min-height: 300px !important;
+        }
     }
 }
 
@@ -328,7 +340,7 @@ body:has(#home-page) {
         flex-wrap: wrap;
 
         .person-card {
-            max-width: 400px;
+            max-width: 500px;
         }
     }
 
