@@ -39,6 +39,11 @@ params:
     logo:
       image: "images/birdlife-logo-rgb.svg"
       text: "Whoo's Calling"
+  footer:
+    logos:
+      - image: "images/birdlife-logo-rgb.svg"
+        alt: "BirdLife Australia Logo"
+        url: "https://birdlife.org.au/"
   campaigns:
     - name: "Powerful Owl"
       filters:
