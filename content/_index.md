@@ -21,14 +21,14 @@ build a clearer picture of where Powerful Owls live, the habitat they rely on, a
 
 {{< /section >}}
 
-{{< section class="section text-block" >}}
+{{% section class="section text-block" %}}
 
 BirdLife Australia is partnering with the team at [Open Ecoacoustics](https://openecoacoustics.org/), who have many years of
 experience working with passive acoustic data, to help process the vast amount of sound we collect and to automate species detections.
 If you choose to verify calls, you’ll be asked to log in to the [Ecosounds](https://www.ecosounds.org/) platform so your verifications
 can be recorded and tracked by BirdLife researchers as part of this ongoing project.
 
-{{< /section >}}
+{{% /section %}}
 
 {{< section class="section" >}}
 <section class="two-column-section oe-image-column oe-image-left">
