@@ -351,6 +351,10 @@ body:has(#home-page) {
     .oe-call-to-action {
         padding-block: var(--micro-padding-xlarge) !important;
         text-align: justify;
+
+        a {
+            color: var(--micro-font-color-light) !important;
+        }
     }
 
     .column-left {
