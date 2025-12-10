@@ -258,6 +258,10 @@ body:has(#home-page) {
         }
     }
 
+    .cta-section-2 {
+        padding-bottom: 2rem !important;
+    }
+
     section.page-section {
         padding-top: 2rem;
     }
