@@ -10,7 +10,7 @@ class="hero-section"
 >}}
 {{< /section/hero >}}
 
-{{% section class="section oe-call-to-action" >}}
+{{% section class="section oe-call-to-action" %}}
 
 The Powerful Owl Project, run by BirdLife Australia, works with citizen scientists across South-East Queensland and Greater Sydney
 to map, monitor and protect Australia’s largest owl in urban and peri-urban areas. We use acoustic recorders to capture owl calls
