@@ -32,7 +32,7 @@ can be recorded and tracked by BirdLife researchers as part of this ongoing proj
         <figure class="inline-video">
             <!-- {{< youtube id="BCqg6aJxRts" loading="lazy" >}} -->
             <a href="https://www.youtube.com/watch?v=BCqg6aJxRts&list=PLB517FD9577175A37&index=1" target="_blank" rel="noopener" style="display: contents;">
-                <img src="video-fallback.png" alt="" loading="lazy" />
+                <img src="video-fallback.webp" alt="" loading="lazy" />
             </a>
         </figure>
     </div>
