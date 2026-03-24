@@ -10,7 +10,7 @@ title = "Whoo's Calling | Verify"
         </div>
         <oe-axes>
         <oe-indicator>
-            <oe-spectrogram id="spectrogram" mel-scale></oe-spectrogram>
+            <oe-spectrogram id="spectrogram" mel-scale window-size="2048" window-overlap="256" ></oe-spectrogram>
         </oe-indicator>
         </oe-axes>
         <div class="tile-block">
@@ -44,7 +44,7 @@ title = "Whoo's Calling | Verify"
                                     id="example-1"
                                     src="/Ninox-strenua-male.mp3"
                                     window-size="2048"
-                                    window-overlap="512"
+                                    window-overlap="256"
                                     mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
@@ -79,7 +79,7 @@ title = "Whoo's Calling | Verify"
                                     id="example-2"
                                     src="/Ninox-strenua-female.mp3"
                                     window-size="2048"
-                                    window-overlap="1024"
+                                    window-overlap="256"
                                     mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
@@ -113,13 +113,43 @@ title = "Whoo's Calling | Verify"
                                 <oe-spectrogram
                                     id="example-3"
                                     src="/Powerful-Owl_Ninox-strenua_chick-begging_Ed-McNabb.mp3"
-                                    window-size="1024"
-                                    window-overlap="128"
+                                    window-size="2048"
+                                    window-overlap="256"
                                     window-function="tukey"
                                     mel-scale
                                 ></oe-spectrogram>
                             </oe-indicator>
                         </oe-axes>
+                        <oe-annotation
+                            start-time="0.3"
+                            end-time="1.5"
+                            low-frequency="2000"
+                            high-frequency="7500"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="2.6"
+                            end-time="3.8"
+                            low-frequency="2000"
+                            high-frequency="7500"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="7.8"
+                            end-time="9.0"
+                            low-frequency="2000"
+                            high-frequency="7500"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="10.9"
+                            end-time="12.0"
+                            low-frequency="2000"
+                            high-frequency="7500"
+                        ></oe-annotation>
+                        <oe-annotation
+                            start-time="14.0"
+                            end-time="15.0"
+                            low-frequency="2000"
+                            high-frequency="7500"
+                        ></oe-annotation>
                     </oe-annotate>
                 </div>
             </sl-card>
