@@ -32,9 +32,9 @@ menus:
     - name: Donate Today
       pageRef: https://birdlife.org.au/donate
 params:
-  apiHost: https://api.ecosounds.org
-  workbenchHost: https://ecosounds.org
-  heroImage: images/hero-image.avif
+  api_host: https://api.ecosounds.org
+  workbench_host: https://ecosounds.org
+  hero_image: images/hero-image.avif
   navbar:
     logo:
       image: "images/birdlife-logo-rgb.svg"
